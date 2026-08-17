@@ -1,0 +1,38 @@
+# Build directories
+build/
+build_*/
+dist/
+*.o
+*.so
+*.a
+*.dll
+*.dylib
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Executables
+*.exe
+*.out
+
+# Dependencies
+/third_party/
+
+# Test outputs
+*.gcov
+*.gcda
+*.gcno
+test_results/
+
+# Benchmark outputs
+benchmark_results/
